@@ -39,10 +39,10 @@ The following features are available after *authentication*:
 >     * **Pay attention: if you have a schema with the name "taxi" it will be replaced**
 > 4. In taxi/util/ConnectionUtil change constants:
 ```
-     private static final String URL = "YOUR URL TO DB";
-     private static final String USERNAME = "YOUR USERNAME FOR ACCES TO DB";
-     private static final String PASSWORD = "YOUR PASSWORD FOR ACCES TO DB";
-     private static final String JDBC_DRIVER = "YOUR JDBC DRIVER PATH";
+    private static final String URL = "YOUR_URL";
+    private static final String USERNAME = "YOUR_USERNAME";
+    private static final String PASSWORD = "YOUR_PASSWORD";
+    private static final String JDBC_DRIVER = "YOUR_JDBC_DRIVER";
 ```
 > 5. Configure TomCat Local server (Add New Configuration -> TomCat -> Local -> Fix -> taxi-service:war exploded -> OK)
 > 6. Also, if you want to use logger change full path in resources/log4j2.xml file
