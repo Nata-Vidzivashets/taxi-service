@@ -1,11 +1,11 @@
-package mate.service.impl;
+package taxi.service.impl;
 
 import java.util.List;
-import mate.dao.ManufacturerDao;
-import mate.lib.Inject;
-import mate.lib.Service;
-import mate.model.Manufacturer;
-import mate.service.ManufacturerService;
+import taxi.dao.ManufacturerDao;
+import taxi.lib.Inject;
+import taxi.lib.Service;
+import taxi.model.Manufacturer;
+import taxi.service.ManufacturerService;
 
 @Service
 public class ManufacturerServiceImpl implements ManufacturerService {

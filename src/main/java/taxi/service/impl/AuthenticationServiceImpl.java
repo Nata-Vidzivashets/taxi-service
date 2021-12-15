@@ -1,14 +1,14 @@
-package mate.service.impl;
+package taxi.service.impl;
 
 import java.util.Optional;
-import mate.exception.AuthenticationException;
-import mate.lib.Inject;
-import mate.lib.Service;
-import mate.model.Driver;
-import mate.service.AuthenticationService;
-import mate.service.DriverService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import taxi.exception.AuthenticationException;
+import taxi.lib.Inject;
+import taxi.lib.Service;
+import taxi.model.Driver;
+import taxi.service.AuthenticationService;
+import taxi.service.DriverService;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {

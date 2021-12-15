@@ -1,4 +1,4 @@
-package mate.util;
+package taxi.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,10 +6,10 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/taxi?serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "sql333";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "YOUR URL TO DB";
+    private static final String USERNAME = "YOUR USERNAME FOR ACCESS TO DB";
+    private static final String PASSWORD = "YOUR PASSWORD FOR ACCESS TO DB";
+    private static final String JDBC_DRIVER = "YOUR JDBC DRIVER PATH";
 
     static {
         try {
