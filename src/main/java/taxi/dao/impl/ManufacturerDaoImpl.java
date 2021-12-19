@@ -1,4 +1,4 @@
-package mate.dao.impl;
+package taxi.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,11 +8,11 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import mate.dao.ManufacturerDao;
-import mate.exception.DataProcessingException;
-import mate.lib.Dao;
-import mate.model.Manufacturer;
-import mate.util.ConnectionUtil;
+import taxi.dao.ManufacturerDao;
+import taxi.exception.DataProcessingException;
+import taxi.lib.Dao;
+import taxi.model.Manufacturer;
+import taxi.util.ConnectionUtil;
 
 @Dao
 public class ManufacturerDaoImpl implements ManufacturerDao {

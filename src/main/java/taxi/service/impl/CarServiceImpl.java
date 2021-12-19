@@ -1,12 +1,12 @@
-package mate.service.impl;
+package taxi.service.impl;
 
 import java.util.List;
-import mate.dao.CarDao;
-import mate.lib.Inject;
-import mate.lib.Service;
-import mate.model.Car;
-import mate.model.Driver;
-import mate.service.CarService;
+import taxi.dao.CarDao;
+import taxi.lib.Inject;
+import taxi.lib.Service;
+import taxi.model.Car;
+import taxi.model.Driver;
+import taxi.service.CarService;
 
 @Service
 public class CarServiceImpl implements CarService {
